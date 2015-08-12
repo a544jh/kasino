@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1366018048 source:/home/axel/codeblocks/kasino/main.cpp
+	<iostream>
+	<sstream>
+	"Card.h"
+	"CardStack.h"
+	"Deck.h"
+	"Player.h"
+	"CaptureSelection.h"
+
+1366017322 source:/home/axel/codeblocks/kasino/src/Player.cpp
+	"Player.h"
+
+1366017598 /home/axel/codeblocks/kasino/include/Player.h
+	"Deck.h"
+	"CardStack.h"
+	"CaptureSelection.h"
+
+1365423392 source:/home/axel/codeblocks/kasino/src/Card.cpp
+	"Card.h"
+
+1365416307 /home/axel/codeblocks/kasino/include/Card.h
+	<string>
+
+1365500092 /home/axel/codeblocks/kasino/include/CardStack.h
+	"Card.h"
+	<string>
+	<vector>
+
+1365351827 /home/axel/codeblocks/kasino/include/Deck.h
+	<CardStack.h>
+
+1365502964 source:/home/axel/codeblocks/kasino/src/CardStack.cpp
+	"CardStack.h"
+
+1365364114 source:/home/axel/codeblocks/kasino/src/Deck.cpp
+	"Deck.h"
+	<random>
+	<time.h>
+
+1365423272 /home/axel/codeblocks/kasino/include/CaptureSelection.h
+	"Card.h"
+	"CardStack.h"
+
+1365585359 source:/home/axel/codeblocks/kasino/src/CaptureSelection.cpp
+	"CaptureSelection.h"
+	<algorithm>
+
